@@ -1,0 +1,254 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.15;
+}
+
+body {
+    font-size: 1.6rem;
+	font-family: "PT Sans", sans-serif;
+}
+
+header {
+	margin: 0;
+	top: 0;
+	height: 15rem;
+	width: 100%;
+	background-color: rgba(211, 211, 211, 0.8);
+	position: fixed;
+}
+
+.headText {
+	padding: 1%;
+}
+
+h1 {
+	font-size: 5rem;
+}
+
+h2 {
+	font-size: 3rem;
+}
+
+a {
+	margin: 1%;
+	padding: 8px;
+	text-decoration: none;
+	letter-spacing: 3px;
+	color: white;
+	font-family: "PT Sans", sans-serif;
+  }
+  a:hover {
+	background-color: white;
+	color: black;
+  }
+
+.buttonOne {
+	background-color: black;
+	
+}
+
+.buttonTwo {
+	background-color: darkgray;
+	
+}
+
+.buttonThree {
+	background-color: black;
+	
+}
+
+.buttonFour {
+	background-color: darkgray;
+	
+}
+
+.buttonFive {
+	margin: 0;
+	padding: 12px;
+	background-color: black;
+	
+}
+
+#main {
+margin-top: 9%;
+}
+
+.mainTop {
+	padding-right: 0;
+	margin: 1%;
+	display: flex;
+	justify-content: center;
+}
+
+.main-img {
+	width: 50%;
+}
+
+.main-img img {
+	border-radius: 2%;
+}
+
+.intro {
+	width: 50%;
+	display: flex;
+	align-items: center;
+}
+
+.introContainer {
+	margin-left: 15%;
+	height: 50%;
+	width: 70%;
+	display: flex;
+	justify-content: left;
+	flex-direction: column;
+}
+
+.introContainer h2 {
+	margin-bottom: 20px;
+}
+
+.introContainer p {
+	margin-top: 20px;
+	font-size: 2.5rem;
+}
+
+
+.myWork {
+	display: flex;
+	justify-content: space-evenly;
+	gap: 5rem;
+	flex-wrap: wrap;
+}
+
+.box {
+	width: 20%;
+	height: 30vh;
+	text-align: center;
+}
+
+.boxOne {
+	background-image: url("https://images.unsplash.com/photo-1504805572947-34fad45aed93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y292ZXIlMjBwaG90b3xlbnwwfHwwfHw%3D&w=1000&q=80");
+	background-size: cover;
+	background-position: center;
+}
+
+.boxTwo {
+	background-image: url("https://images.pexels.com/photos/1535907/pexels-photo-1535907.jpeg?cs=srgb&dl=pexels-karyme-fran%C3%A7a-1535907.jpg&fm=jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.boxThree {
+	background-image: url("https://media.springernature.com/w580h326/nature-cms/uploads/collections/2019-11-07_Comment_Nature_network_THUMB-0cc9e47eb5e56d5546ecb28d646975dc.JPEG");
+	background-size: cover;
+	background-position: center;
+}
+
+.boxFour {
+	background-image: url(https://timelinecovers.pro/facebook-cover/download/Sunrise-Beach-Tropical-facebook-cover.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.boxFive {
+	background-image: url(https://timelinecovers.pro/facebook-cover/download/photography-city-lights-facebook-cover.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.boxSix {
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm1SN3XID5tDL3baRfMnYE4NE1ZzaQHdVZUQ&usqp=CAU);
+	background-size: cover;
+	background-position: center;
+}
+
+.boxSeven {
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSym7JJvK-VP8JjDBxKOPCSe7AEGs4u3QsCgg&usqp=CAU);
+	background-size: cover;
+	background-position: center;
+}
+
+.boxEight {
+	background-image: url(https://newevolutiondesigns.com/images/freebies/city-facebook-cover-5.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+footer {
+	padding-top: 3%;
+	margin-top: 2%;
+	height: 15rem;
+	background-color: lightgray;
+}
+
+.footerText {
+	display: flex;
+	justify-content: center;
+}
+
+.footerLink {
+	display: flex;
+	justify-content: center;
+}
+
+.buttonSix {
+	padding: 12px;
+	background-color: black;
+}
+
+
